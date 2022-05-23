@@ -1,5 +1,4 @@
 class LanguagesController < ApplicationController
-    
   def create
     @resume = Resume.find(params[:resume_id])
     @language = @resume.languages.create(language_params)
@@ -17,7 +16,8 @@ class LanguagesController < ApplicationController
  
   private
     def language_params
-      params.require(:language).permit(:title, :level)
+      params.require(:language).permit(:language, :level)
     end
+    
     
 end

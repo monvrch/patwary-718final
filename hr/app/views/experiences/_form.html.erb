@@ -1,0 +1,21 @@
+<%= form_for([@resume, @resume.experiences.build]) do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :start %><br>
+    <%= f.text_field :start %>
+  </p>
+  <p>
+    <%= f.label :end %><br>
+    <%= f.text_field :end %>
+  </p>
+  <p>
+    <%= f.label :body %><br>
+    <%= f.text_field :body %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

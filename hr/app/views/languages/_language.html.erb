@@ -1,12 +1,11 @@
+<p><%= language.language %></p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:<%= language.level %>"><%= language.level %></div>
+          </div>
 
-<p><%= language.title %></p>
-    <div class="w3-light-grey w3-round-xlarge">
-    <div class="w3-round-xlarge w3-teal" style="height:24px;width:<%= language.level %>"></div>
-    </div>      
-    
-          
 <p>
-  <%= link_to 'Destroy language', [language.resume, language],
+  
+  <%= link_to 'Destroy Language', [language.resume, language],
                method: :delete,
                data: { confirm: 'Are you sure?' } %>
 </p>

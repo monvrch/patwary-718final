@@ -1,11 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  language: MyString
-  level: MyText
+  title: MyString
+  start: MyText
+  end: MyText
+  body: MyText
   resume: one
 
 two:
-  language: MyString
-  level: MyText
+  title: MyString
+  start: MyText
+  end: MyText
+  body: MyText
   resume: two

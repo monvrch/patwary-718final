@@ -1,7 +1,7 @@
 <%= form_for([@resume, @resume.languages.build]) do |f| %>
   <p>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.label :language %><br>
+    <%= f.text_field :language %>
   </p>
   <p>
     <%= f.label :level %><br>
@@ -11,5 +11,3 @@
     <%= f.submit %>
   </p>
 <% end %>
-
-

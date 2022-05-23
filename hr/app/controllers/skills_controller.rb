@@ -20,4 +20,5 @@ class SkillsController < ApplicationController
       params.require(:skill).permit(:title, :level)
     end
     
+    
 end
